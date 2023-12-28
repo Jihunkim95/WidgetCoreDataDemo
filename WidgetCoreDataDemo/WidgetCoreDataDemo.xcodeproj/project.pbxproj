@@ -13,9 +13,6 @@
 		5C2F53D42B3D475E0090F301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F53D32B3D475E0090F301 /* Preview Assets.xcassets */; };
 		5C2F53D62B3D475E0090F301 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F53D52B3D475E0090F301 /* Persistence.swift */; };
 		5C2F53D92B3D475E0090F301 /* WidgetCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F53D72B3D475E0090F301 /* WidgetCoreDataDemo.xcdatamodeld */; };
-		5C2F53E32B3D475F0090F301 /* WidgetCoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F53E22B3D475F0090F301 /* WidgetCoreDataDemoTests.swift */; };
-		5C2F53ED2B3D475F0090F301 /* WidgetCoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F53EC2B3D475F0090F301 /* WidgetCoreDataDemoUITests.swift */; };
-		5C2F53EF2B3D475F0090F301 /* WidgetCoreDataDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F53EE2B3D475F0090F301 /* WidgetCoreDataDemoUITestsLaunchTests.swift */; };
 		5C2F54022B3D47840090F301 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F54012B3D47840090F301 /* WidgetKit.framework */; };
 		5C2F54042B3D47840090F301 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F54032B3D47840090F301 /* SwiftUI.framework */; };
 		5C2F54072B3D47840090F301 /* WeatherWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54062B3D47840090F301 /* WeatherWidgetBundle.swift */; };
@@ -24,23 +21,11 @@
 		5C2F540D2B3D47840090F301 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F540C2B3D47840090F301 /* AppIntent.swift */; };
 		5C2F540F2B3D47850090F301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F540E2B3D47850090F301 /* Assets.xcassets */; };
 		5C2F54132B3D47850090F301 /* WeatherWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2F53FF2B3D47840090F301 /* WeatherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2F541A2B3D4F280090F301 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F53D52B3D475E0090F301 /* Persistence.swift */; };
+		5C2F541B2B3D4F710090F301 /* WidgetCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F53D72B3D475E0090F301 /* WidgetCoreDataDemo.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C2F53DF2B3D475F0090F301 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5C2F53C12B3D475D0090F301 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C2F53C82B3D475D0090F301;
-			remoteInfo = WidgetCoreDataDemo;
-		};
-		5C2F53E92B3D475F0090F301 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5C2F53C12B3D475D0090F301 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C2F53C82B3D475D0090F301;
-			remoteInfo = WidgetCoreDataDemo;
-		};
 		5C2F54112B3D47850090F301 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C2F53C12B3D475D0090F301 /* Project object */;
@@ -72,11 +57,6 @@
 		5C2F53D32B3D475E0090F301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C2F53D52B3D475E0090F301 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5C2F53D82B3D475E0090F301 /* WidgetCoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WidgetCoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
-		5C2F53DE2B3D475F0090F301 /* WidgetCoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetCoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C2F53E22B3D475F0090F301 /* WidgetCoreDataDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCoreDataDemoTests.swift; sourceTree = "<group>"; };
-		5C2F53E82B3D475F0090F301 /* WidgetCoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetCoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C2F53EC2B3D475F0090F301 /* WidgetCoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCoreDataDemoUITests.swift; sourceTree = "<group>"; };
-		5C2F53EE2B3D475F0090F301 /* WidgetCoreDataDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCoreDataDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C2F53FF2B3D47840090F301 /* WeatherWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WeatherWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2F54012B3D47840090F301 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		5C2F54032B3D47840090F301 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -92,20 +72,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		5C2F53C62B3D475D0090F301 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C2F53DB2B3D475F0090F301 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C2F53E52B3D475F0090F301 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,8 +95,6 @@
 			children = (
 				5C2F54192B3D48110090F301 /* WeatherWidgetExtension.entitlements */,
 				5C2F53CB2B3D475D0090F301 /* WidgetCoreDataDemo */,
-				5C2F53E12B3D475F0090F301 /* WidgetCoreDataDemoTests */,
-				5C2F53EB2B3D475F0090F301 /* WidgetCoreDataDemoUITests */,
 				5C2F54052B3D47840090F301 /* WeatherWidget */,
 				5C2F54002B3D47840090F301 /* Frameworks */,
 				5C2F53CA2B3D475D0090F301 /* Products */,
@@ -141,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				5C2F53C92B3D475D0090F301 /* WidgetCoreDataDemo.app */,
-				5C2F53DE2B3D475F0090F301 /* WidgetCoreDataDemoTests.xctest */,
-				5C2F53E82B3D475F0090F301 /* WidgetCoreDataDemoUITests.xctest */,
 				5C2F53FF2B3D47840090F301 /* WeatherWidgetExtension.appex */,
 			);
 			name = Products;
@@ -168,23 +130,6 @@
 				5C2F53D32B3D475E0090F301 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5C2F53E12B3D475F0090F301 /* WidgetCoreDataDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				5C2F53E22B3D475F0090F301 /* WidgetCoreDataDemoTests.swift */,
-			);
-			path = WidgetCoreDataDemoTests;
-			sourceTree = "<group>";
-		};
-		5C2F53EB2B3D475F0090F301 /* WidgetCoreDataDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5C2F53EC2B3D475F0090F301 /* WidgetCoreDataDemoUITests.swift */,
-				5C2F53EE2B3D475F0090F301 /* WidgetCoreDataDemoUITestsLaunchTests.swift */,
-			);
-			path = WidgetCoreDataDemoUITests;
 			sourceTree = "<group>";
 		};
 		5C2F54002B3D47840090F301 /* Frameworks */ = {
@@ -231,42 +176,6 @@
 			productReference = 5C2F53C92B3D475D0090F301 /* WidgetCoreDataDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C2F53DD2B3D475F0090F301 /* WidgetCoreDataDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C2F53F52B3D475F0090F301 /* Build configuration list for PBXNativeTarget "WidgetCoreDataDemoTests" */;
-			buildPhases = (
-				5C2F53DA2B3D475F0090F301 /* Sources */,
-				5C2F53DB2B3D475F0090F301 /* Frameworks */,
-				5C2F53DC2B3D475F0090F301 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5C2F53E02B3D475F0090F301 /* PBXTargetDependency */,
-			);
-			name = WidgetCoreDataDemoTests;
-			productName = WidgetCoreDataDemoTests;
-			productReference = 5C2F53DE2B3D475F0090F301 /* WidgetCoreDataDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5C2F53E72B3D475F0090F301 /* WidgetCoreDataDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C2F53F82B3D475F0090F301 /* Build configuration list for PBXNativeTarget "WidgetCoreDataDemoUITests" */;
-			buildPhases = (
-				5C2F53E42B3D475F0090F301 /* Sources */,
-				5C2F53E52B3D475F0090F301 /* Frameworks */,
-				5C2F53E62B3D475F0090F301 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5C2F53EA2B3D475F0090F301 /* PBXTargetDependency */,
-			);
-			name = WidgetCoreDataDemoUITests;
-			productName = WidgetCoreDataDemoUITests;
-			productReference = 5C2F53E82B3D475F0090F301 /* WidgetCoreDataDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		5C2F53FE2B3D47840090F301 /* WeatherWidgetExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C2F54142B3D47850090F301 /* Build configuration list for PBXNativeTarget "WeatherWidgetExtension" */;
@@ -297,14 +206,6 @@
 					5C2F53C82B3D475D0090F301 = {
 						CreatedOnToolsVersion = 15.1;
 					};
-					5C2F53DD2B3D475F0090F301 = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 5C2F53C82B3D475D0090F301;
-					};
-					5C2F53E72B3D475F0090F301 = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = 5C2F53C82B3D475D0090F301;
-					};
 					5C2F53FE2B3D47840090F301 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -324,8 +225,6 @@
 			projectRoot = "";
 			targets = (
 				5C2F53C82B3D475D0090F301 /* WidgetCoreDataDemo */,
-				5C2F53DD2B3D475F0090F301 /* WidgetCoreDataDemoTests */,
-				5C2F53E72B3D475F0090F301 /* WidgetCoreDataDemoUITests */,
 				5C2F53FE2B3D47840090F301 /* WeatherWidgetExtension */,
 			);
 		};
@@ -338,20 +237,6 @@
 			files = (
 				5C2F53D42B3D475E0090F301 /* Preview Assets.xcassets in Resources */,
 				5C2F53D12B3D475E0090F301 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C2F53DC2B3D475F0090F301 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C2F53E62B3D475F0090F301 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,23 +262,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C2F53DA2B3D475F0090F301 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C2F53E32B3D475F0090F301 /* WidgetCoreDataDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C2F53E42B3D475F0090F301 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C2F53EF2B3D475F0090F301 /* WidgetCoreDataDemoUITestsLaunchTests.swift in Sources */,
-				5C2F53ED2B3D475F0090F301 /* WidgetCoreDataDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5C2F53FB2B3D47840090F301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,22 +270,14 @@
 				5C2F540D2B3D47840090F301 /* AppIntent.swift in Sources */,
 				5C2F54092B3D47840090F301 /* WeatherWidgetLiveActivity.swift in Sources */,
 				5C2F540B2B3D47840090F301 /* WeatherWidget.swift in Sources */,
+				5C2F541A2B3D4F280090F301 /* Persistence.swift in Sources */,
+				5C2F541B2B3D4F710090F301 /* WidgetCoreDataDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C2F53E02B3D475F0090F301 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C2F53C82B3D475D0090F301 /* WidgetCoreDataDemo */;
-			targetProxy = 5C2F53DF2B3D475F0090F301 /* PBXContainerItemProxy */;
-		};
-		5C2F53EA2B3D475F0090F301 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5C2F53C82B3D475D0090F301 /* WidgetCoreDataDemo */;
-			targetProxy = 5C2F53E92B3D475F0090F301 /* PBXContainerItemProxy */;
-		};
 		5C2F54122B3D47850090F301 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5C2F53FE2B3D47840090F301 /* WeatherWidgetExtension */;
@@ -607,82 +467,6 @@
 			};
 			name = Release;
 		};
-		5C2F53F62B3D475F0090F301 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KVX67TSKSQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.jihoon.WidgetCoreDataDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WidgetCoreDataDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WidgetCoreDataDemo";
-			};
-			name = Debug;
-		};
-		5C2F53F72B3D475F0090F301 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KVX67TSKSQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.jihoon.WidgetCoreDataDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WidgetCoreDataDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WidgetCoreDataDemo";
-			};
-			name = Release;
-		};
-		5C2F53F92B3D475F0090F301 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KVX67TSKSQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.jihoon.WidgetCoreDataDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WidgetCoreDataDemo;
-			};
-			name = Debug;
-		};
-		5C2F53FA2B3D475F0090F301 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KVX67TSKSQ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.jihoon.WidgetCoreDataDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WidgetCoreDataDemo;
-			};
-			name = Release;
-		};
 		5C2F54152B3D47850090F301 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -756,24 +540,6 @@
 			buildConfigurations = (
 				5C2F53F32B3D475F0090F301 /* Debug */,
 				5C2F53F42B3D475F0090F301 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5C2F53F52B3D475F0090F301 /* Build configuration list for PBXNativeTarget "WidgetCoreDataDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C2F53F62B3D475F0090F301 /* Debug */,
-				5C2F53F72B3D475F0090F301 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5C2F53F82B3D475F0090F301 /* Build configuration list for PBXNativeTarget "WidgetCoreDataDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C2F53F92B3D475F0090F301 /* Debug */,
-				5C2F53FA2B3D475F0090F301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

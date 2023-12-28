@@ -6,6 +6,7 @@
 //
 
 import CoreData
+import AppIntents
 
 struct PersistenceController {
     static let shared = PersistenceController()
@@ -27,29 +28,29 @@ struct PersistenceController {
         }
         return result
     }()
-
+    
     // PersistenceController 클래스에서 먼저 앱 그룹의 URL을 가져오는 속성을 추가
     var containerURL: URL {
         return FileManager.default.containerURL(
-            forSecurityApplicationGroupIdentifier: "group.net.jihoon.WidgetCoreDataDemo")!
+            forSecurityApplicationGroupIdentifier: "group.net.jihoon.Shared")!
     }
 
-    
     let container: NSPersistentContainer
 
-    
+    // 그런 다음 영구 컨테이너의 저장소 설명에 URL을 설정
     init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "WidgetCoreDataDemo")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         } else {
+            
             let storeURL = containerURL.appendingPathComponent("WidgetCoreData.sqlite")
+            print(storeURL)
             container.persistentStoreDescriptions.first!.url = storeURL
         }
-
+        
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
-   
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
         })
